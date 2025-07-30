@@ -22,17 +22,14 @@ main {
 
 .card {
   position: relative;
-  width: 240px;
-  height: 300px;
   margin: 20px;
-  padding: 15px;
-  background: #fefefe;
   transform: rotate(2deg);
   transition: transform 0.2s;
-  cursor: pointer;
-  perspective: 1000px;
+  margin: 50px;
+  width: 240px;
+  height: 300px;
 
-  &:hover:not(.flipped) {
+  &:hover {
     transform: rotate(0deg);
   }
 
@@ -45,6 +42,16 @@ main {
 }
 
 .card__front {
+  position: relative;
+  border-radius: 3px;
+  width: 240px;
+  height: 300px;
+  padding: 15px;
+  background-image: url(/public/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   z-index: 1;
   position: relative;
   height: 100%;
@@ -54,6 +61,16 @@ main {
 }
 
 .card__back {
+  position: relative;
+  border-radius: 3px;
+  width: 240px;
+  height: 300px;
+  padding: 15px;
+  background-image: url(/public/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   z-index: 0;
   position: absolute;
   top: 15px;
@@ -85,11 +102,11 @@ main {
 .caption-text {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #555;
+  color: #222;
 }
 
 .caption-date {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #555;
+  color: #222;
 }
