@@ -7,12 +7,20 @@ interface PalaroidCardProps {
 }
 
 function PalaroidCard({ URL, text, date }: PalaroidCardProps) {
+
   const [isFlipped, setIsFlipped] = useState(true);
+
+  const list = new Audio("/list.mp3")
+
+  const heldleFliped = () => {
+    list.play()
+    setIsFlipped(!isFlipped)
+  }
 
   return (
     <div 
       className={`card ${isFlipped ? 'flipped' : ''}`}
-      onClick={() => setIsFlipped(!isFlipped)}
+      onClick={heldleFliped}
     >
       <div className="card__front">
         <div className="caption">
@@ -21,7 +29,7 @@ function PalaroidCard({ URL, text, date }: PalaroidCardProps) {
         </div>
       </div>
       <div className="card__back">
-        <img src={URL} alt={text} loading="lazy" /> 
+        <img src={URL} alt={text} /> 
         <div className="caption">
           <p className="caption-date">{date}</p>
         </div>
