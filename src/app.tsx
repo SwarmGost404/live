@@ -8,7 +8,7 @@ export function App() {
   return (
     <>
       <main>
-        <div style={{display: "flex", flexWrap: "wrap", margin: "auto"}}>
+        <div style={{display: "flex", flexWrap: "wrap", margin: "auto", justifyContent: "center"}}>
           {
             data.map((item, index) => {
               return(
