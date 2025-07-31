@@ -45,6 +45,7 @@
   width: 240px;
   height: 300px;
   padding: 15px;
+  background-color: #eee;
   background-image: url(/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +66,8 @@
   width: 240px;
   height: 300px;
   padding: 15px;
-  background-image: url(/public/bg.jpg);
+  background-color: #eee;
+  background-image: url(/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +96,7 @@
 
 .caption {
   font-size: 80%;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Lobster", sans-serif;
   width: 100%;
 }
 
