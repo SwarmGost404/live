@@ -10,10 +10,7 @@ function PalaroidCard({ URL, text, date }: PalaroidCardProps) {
 
   const [isFlipped, setIsFlipped] = useState(true);
 
-  const list = new Audio("/list.mp3")
-
   const heldleFliped = () => {
-    list.play()
     setIsFlipped(!isFlipped)
   }
 
