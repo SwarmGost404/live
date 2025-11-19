@@ -25,7 +25,8 @@
   height: 300px;
   justify-content: center;
   perspective: 1000px;
-
+  user-select: none;
+  
   &:hover {
     transform: rotate(0deg);
   }
