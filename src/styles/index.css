@@ -24,6 +24,7 @@
   width: 240px;
   height: 300px;
   justify-content: center;
+  perspective: 1000px;
 
   &:hover {
     transform: rotate(0deg);
@@ -57,6 +58,8 @@
   text-align: center;
   backface-visibility: hidden;
   transition: transform 0.3s cubic-bezier(.2,.85,.4,1.275);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 .card__back {
@@ -81,6 +84,9 @@
   backface-visibility: hidden;
   transform: rotateY(-180deg);
   transition: transform 0.3s cubic-bezier(.2,.85,.4,1.275);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
 }
 
 .card.flipped .card__back {
