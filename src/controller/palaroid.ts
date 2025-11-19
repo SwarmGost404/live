@@ -33,7 +33,7 @@ export const data: PolaroidCardProps[] = [
     {
         imageUrl: "/first-lina.jpg",
         text: "Ты мне целовала спину\nТуда же и наносила две тысячи ножевых\nА мне чудилась даже в них нежность \nЯ никогда так не любил прежде",
-        date: "Зима 2025"
+        date: "Осень 2025"
     },
     {
         imageUrl: "/first-kiss-lina.jpg",
