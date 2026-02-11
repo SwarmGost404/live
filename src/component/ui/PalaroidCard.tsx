@@ -1,5 +1,7 @@
 import { useState } from "preact/hooks";
 
+// Это просто компонент который много раз повторяется в App.tsx 
+
 interface PalaroidCardProps {
   URL: string;
   text: string;

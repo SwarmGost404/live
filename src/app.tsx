@@ -2,6 +2,8 @@ import PolaroidCard from "./component/ui/PalaroidCard"
 
 import { data } from "./controller/palaroid"
 
+// Основной компонент, который просто проходится циклом по данным, которые находятся по пути ./controller/palaroid и создаёт полароидные карточки
+
 
 export function App() {
   
