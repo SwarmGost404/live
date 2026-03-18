@@ -116,3 +116,8 @@
   margin-bottom: 5px;
   color: #222;
 }
+
+.no-vision {
+  overflow: hidden;
+  color: #280000;
+}
