@@ -24,7 +24,6 @@ function PalaroidCard({ URL, text, date }: PalaroidCardProps) {
       <div className="card__front">
         <div className="caption">
           <p className="caption-text">{text}</p>
-          <p className="caption-date">{date}</p>
         </div>
       </div>
       <div className="card__back">
