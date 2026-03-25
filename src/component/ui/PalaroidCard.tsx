@@ -27,7 +27,7 @@ function PalaroidCard({ URL, text, date }: PalaroidCardProps) {
         </div>
       </div>
       <div className="card__back">
-        <img src={URL} alt={text} /> 
+        <img loading="lazy" src={URL} alt={text} /> 
         <div className="caption">
           <p className="caption-date">{date}</p>
         </div>
