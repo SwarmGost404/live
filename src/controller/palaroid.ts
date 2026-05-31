@@ -62,7 +62,7 @@ export const data: PolaroidCardProps[] = [
     }, 
     {
         imageUrl: "31",
-        text: "<a href="/LOVE.pdf">С любовью, твой простолюдин)</a>",
+        text: "<a href="https://live-me-eight.vercel.app/LOVE.pdf">С любовью, твой простолюдин)</a>",
         date: "Весна 2026"
     }, 
 ]
