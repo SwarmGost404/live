@@ -60,9 +60,4 @@ export const data: PolaroidCardProps[] = [
         text: "Это чей там паренёк выдаёт коленца, будто в жилах у него заиграло детствв",
         date: "Зима 2026"
     }, 
-    {
-        imageUrl: "31",
-        text: "https://live-me-eight.vercel.app/LOVE.pdf",
-        date: "Весна 2026"
-    }, 
 ]
